@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "UMD",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "strict": false,
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.promise"
+    ]
+  },
+  "include": ["src"]
+}
