@@ -1,0 +1,21 @@
+{
+  "name": "@adaptmen/opta",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:compile:watch": "tsc --watch",
+    "dev:node:watch": "nodemon ./dist/index.js"
+  },
+  "engines": {
+    "node": ">=15.0.0"
+  },
+  "dependencies": {
+    "@adaptmen/js-prop": "^1.0.0",
+    "typescript": "^4.2.4",
+    "underscore": "^1.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
